@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AC188111C961E380029B4C2 /* FBAnnotationClustering.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1AC188101C961E380029B4C2 /* FBAnnotationClustering.h */; };
+		1AC188131C961E380029B4C2 /* FBAnnotationClustering.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC188121C961E380029B4C2 /* FBAnnotationClustering.m */; };
+		1AC188211C961EBF0029B4C2 /* FBAnnotationCluster.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC1881A1C961EBF0029B4C2 /* FBAnnotationCluster.m */; };
+		1AC188221C961EBF0029B4C2 /* FBClusteringManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC1881C1C961EBF0029B4C2 /* FBClusteringManager.m */; };
+		1AC188231C961EBF0029B4C2 /* FBQuadTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC1881E1C961EBF0029B4C2 /* FBQuadTree.m */; };
+		1AC188241C961EBF0029B4C2 /* FBQuadTreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC188201C961EBF0029B4C2 /* FBQuadTreeNode.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1AC1880B1C961E380029B4C2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				1AC188111C961E380029B4C2 /* FBAnnotationClustering.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1AC1880D1C961E380029B4C2 /* libFBAnnotationClustering.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFBAnnotationClustering.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AC188101C961E380029B4C2 /* FBAnnotationClustering.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBAnnotationClustering.h; sourceTree = "<group>"; };
+		1AC188121C961E380029B4C2 /* FBAnnotationClustering.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBAnnotationClustering.m; sourceTree = "<group>"; };
+		1AC188191C961EBF0029B4C2 /* FBAnnotationCluster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBAnnotationCluster.h; sourceTree = "<group>"; };
+		1AC1881A1C961EBF0029B4C2 /* FBAnnotationCluster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBAnnotationCluster.m; sourceTree = "<group>"; };
+		1AC1881B1C961EBF0029B4C2 /* FBClusteringManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBClusteringManager.h; sourceTree = "<group>"; };
+		1AC1881C1C961EBF0029B4C2 /* FBClusteringManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBClusteringManager.m; sourceTree = "<group>"; };
+		1AC1881D1C961EBF0029B4C2 /* FBQuadTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBQuadTree.h; sourceTree = "<group>"; };
+		1AC1881E1C961EBF0029B4C2 /* FBQuadTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBQuadTree.m; sourceTree = "<group>"; };
+		1AC1881F1C961EBF0029B4C2 /* FBQuadTreeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBQuadTreeNode.h; sourceTree = "<group>"; };
+		1AC188201C961EBF0029B4C2 /* FBQuadTreeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBQuadTreeNode.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AC1880A1C961E380029B4C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AC188041C961E380029B4C2 = {
+			isa = PBXGroup;
+			children = (
+				1AC1880F1C961E380029B4C2 /* FBAnnotationClustering */,
+				1AC1880E1C961E380029B4C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1AC1880E1C961E380029B4C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AC1880D1C961E380029B4C2 /* libFBAnnotationClustering.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AC1880F1C961E380029B4C2 /* FBAnnotationClustering */ = {
+			isa = PBXGroup;
+			children = (
+				1AC188191C961EBF0029B4C2 /* FBAnnotationCluster.h */,
+				1AC1881A1C961EBF0029B4C2 /* FBAnnotationCluster.m */,
+				1AC1881B1C961EBF0029B4C2 /* FBClusteringManager.h */,
+				1AC1881C1C961EBF0029B4C2 /* FBClusteringManager.m */,
+				1AC1881D1C961EBF0029B4C2 /* FBQuadTree.h */,
+				1AC1881E1C961EBF0029B4C2 /* FBQuadTree.m */,
+				1AC1881F1C961EBF0029B4C2 /* FBQuadTreeNode.h */,
+				1AC188201C961EBF0029B4C2 /* FBQuadTreeNode.m */,
+				1AC188101C961E380029B4C2 /* FBAnnotationClustering.h */,
+				1AC188121C961E380029B4C2 /* FBAnnotationClustering.m */,
+			);
+			path = FBAnnotationClustering;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AC1880C1C961E380029B4C2 /* FBAnnotationClustering */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AC188161C961E380029B4C2 /* Build configuration list for PBXNativeTarget "FBAnnotationClustering" */;
+			buildPhases = (
+				1AC188091C961E380029B4C2 /* Sources */,
+				1AC1880A1C961E380029B4C2 /* Frameworks */,
+				1AC1880B1C961E380029B4C2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBAnnotationClustering;
+			productName = FBAnnotationClustering;
+			productReference = 1AC1880D1C961E380029B4C2 /* libFBAnnotationClustering.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AC188051C961E380029B4C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Foundbite;
+				TargetAttributes = {
+					1AC1880C1C961E380029B4C2 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 1AC188081C961E380029B4C2 /* Build configuration list for PBXProject "FBAnnotationClustering" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1AC188041C961E380029B4C2;
+			productRefGroup = 1AC1880E1C961E380029B4C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AC1880C1C961E380029B4C2 /* FBAnnotationClustering */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AC188091C961E380029B4C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AC188221C961EBF0029B4C2 /* FBClusteringManager.m in Sources */,
+				1AC188131C961E380029B4C2 /* FBAnnotationClustering.m in Sources */,
+				1AC188231C961EBF0029B4C2 /* FBQuadTree.m in Sources */,
+				1AC188211C961EBF0029B4C2 /* FBAnnotationCluster.m in Sources */,
+				1AC188241C961EBF0029B4C2 /* FBQuadTreeNode.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1AC188141C961E380029B4C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1AC188151C961E380029B4C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AC188171C961E380029B4C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1AC188181C961E380029B4C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AC188081C961E380029B4C2 /* Build configuration list for PBXProject "FBAnnotationClustering" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AC188141C961E380029B4C2 /* Debug */,
+				1AC188151C961E380029B4C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AC188161C961E380029B4C2 /* Build configuration list for PBXNativeTarget "FBAnnotationClustering" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AC188171C961E380029B4C2 /* Debug */,
+				1AC188181C961E380029B4C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AC188051C961E380029B4C2 /* Project object */;
+}
