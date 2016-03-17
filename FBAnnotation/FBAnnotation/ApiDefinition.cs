@@ -24,7 +24,7 @@ namespace FBAnnotationClustering
 
 		// @property (nonatomic, strong) NSArray * annotations;
 		[Export ("annotations", ArgumentSemantic.Strong)]
-    MKAnnotation[] Annotations { get; set; }
+    NSObject[] Annotations { get; set; }
 	}
 
 	// @interface FBQuadTreeNode : NSObject
@@ -95,35 +95,35 @@ namespace FBAnnotationClustering
 
 		// -(id)initWithAnnotations:(NSArray *)annotations;
 		[Export ("initWithAnnotations:")]
-    IntPtr Constructor (MKAnnotation[] annotations);
+    IntPtr Constructor (NSObject[] annotations);
 
 		// -(void)setAnnotations:(NSArray *)annotations;
 		[Export ("setAnnotations:")]
-    void SetAnnotations (MKAnnotation[] annotations);
+    void SetAnnotations (NSObject[] annotations);
 
 		// -(void)addAnnotations:(NSArray *)annotations;
 		[Export ("addAnnotations:")]
-    void AddAnnotations (MKAnnotation[] annotations);
+    void AddAnnotations (NSObject[] annotations);
 
 		// -(void)removeAnnotations:(NSArray *)annotations;
 		[Export ("removeAnnotations:")]
-    void RemoveAnnotations (MKAnnotation[] annotations);
+    void RemoveAnnotations (NSObject[] annotations);
 
 		// -(NSArray *)clusteredAnnotationsWithinMapRect:(MKMapRect)rect withZoomScale:(double)zoomScale;
 		[Export ("clusteredAnnotationsWithinMapRect:withZoomScale:")]
-    MKAnnotation[] ClusteredAnnotationsWithinMapRect (MKMapRect rect, double zoomScale);
+    NSObject[] ClusteredAnnotationsWithinMapRect (MKMapRect rect, double zoomScale);
 
 		// -(NSArray *)clusteredAnnotationsWithinMapRect:(MKMapRect)rect withZoomScale:(double)zoomScale withFilter:(BOOL (^)(id<MKAnnotation>))filter;
 		[Export ("clusteredAnnotationsWithinMapRect:withZoomScale:withFilter:")]
-    MKAnnotation[] ClusteredAnnotationsWithinMapRect (MKMapRect rect, double zoomScale, Func<MKAnnotation, bool> filter);
+    NSObject[] ClusteredAnnotationsWithinMapRect (MKMapRect rect, double zoomScale, Func<MKAnnotation, bool> filter);
 
 		// -(NSArray *)allAnnotations;
 		[Export ("allAnnotations")]
-    MKAnnotation[] AllAnnotations { get; }
+    NSObject[] AllAnnotations { get; }
 
 		// -(void)displayAnnotations:(NSArray *)annotations onMapView:(MKMapView *)mapView;
 		[Export ("displayAnnotations:onMapView:")]
-    void DisplayAnnotations (MKAnnotation[] annotations, MKMapView mapView);
+    void DisplayAnnotations (NSObject[] annotations, MKMapView mapView);
 	}
 
 	// @interface FBQuadTree : NSObject
